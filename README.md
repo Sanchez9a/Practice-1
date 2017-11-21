@@ -25,15 +25,15 @@
       
    public:
    
-   Dados();
-   void lanzamiento();
-   inline int getdado1() {return d1_;};
-   inline int getdado2() {return d2_;};
-   bool setdado1(int dado);
-   bool setdado2(int dado);
-   inline int getsuma() {return d1_+d2_;};
-   inline int getdiferencia() {if(d2_>d1_) {return d2_-d1_;}; else {return d1_-d2_;};
-   inline int getLanzamientos1() {return lanzamientos1_;};
+         Dados();
+         void lanzamiento();
+         inline int getdado1() {return d1_;};
+         inline int getdado2() {return d2_;};
+         bool setdado1(int dado);
+          bool setdado2(int dado);
+       inline int getsuma() {return d1_+d2_;};
+       inline int getdiferencia() {if(d2_>d1_) {return d2_-d1_;}; else {return d1_-d2_;};
+       inline int getLanzamientos1() {return lanzamientos1_;};
 	 inline int getLanzamientos2() {return lanzamientos2_;};
 	 float getMedia1();
 	 float getMedia2();
